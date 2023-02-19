@@ -25,3 +25,5 @@ $ pip install time
 Go to https://openai.com/api/ and create an account.<br/>
 Create your own KEY and update the app,using the menu bar - "Update Key"
 
+## License
+MIT © [Koral](LICENSES.md)
