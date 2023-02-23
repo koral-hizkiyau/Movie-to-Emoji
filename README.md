@@ -7,7 +7,7 @@ Open AI - Convert movie titles into emoji.
 ## Image 3 - Convert to Icon
 ![img3](https://user-images.githubusercontent.com/61585370/219973954-ae5a1568-6a0b-4dac-9fba-e6b4d37feedb.png)
 
-## Image 2 - Find Icon
+## Image 2 - Find Movie Title Icons
 ![img2](https://user-images.githubusercontent.com/61585370/219973654-6538271f-d830-4d37-af28-f9e00f5c1fbb.png)
 
 ## Installation
