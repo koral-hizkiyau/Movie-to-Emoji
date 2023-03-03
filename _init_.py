@@ -14,13 +14,18 @@ global on_click
 on_click = 0
 
 root = tb.Window(themename="superhero")
-
 #root = tk
 root.title("Open AI - Movie to Emoji")
 root.iconbitmap('images/smiling.ico')
-root.geometry("700x550")
 
+app_width = 750
+app_height = 550
 
+screen_width = root.winfo_screenwidth()
+screen_height = root.winfo_screenheight()
+
+x = (screen_width / 2) - (app_width / 2)
+y = (screen_height / 2) - (app_height / 2)
 
 def responseOpenAi(sleep_time,text):
     global on_click
@@ -143,6 +148,7 @@ save_key_menu.add_command(label="Update",
                           command = update_key_window)
 my_menu.add_cascade(label="Update Key", menu=save_key_menu)
 
+root.geometry(f'{app_width}x{app_height}+{int(x)}+{int(y)}')
 
 
 root.mainloop()
